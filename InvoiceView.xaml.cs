@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace WPF_Login
 {
     /// <summary>
-    /// Interaction logic for LoginView.xaml
+    /// Interaction logic for InvoiceView.xaml
     /// </summary>
-    public partial class LoginView : UserControl
+    public partial class InvoiceView : UserControl
     {
-        public LoginView()
+        public InvoiceView()
         {
             InitializeComponent();
-        }
-
-        private void LoginButton_Click(object sender, RoutedEventArgs e)
-        {
-            Window window = Window.GetWindow(this);
-            window.Content = new InvoiceView();
-
         }
     }
 }
